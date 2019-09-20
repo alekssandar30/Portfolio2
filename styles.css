@@ -230,8 +230,13 @@ nav{
     z-index: -1;
 }
 
+.activities-grid-item:hover{
+    transform: scaleZ(1);
+}
+
 .gym{
-    background: url("images/stars.jpg") center no-repeat;
+    background: url("images/gym-pic.jpg") center no-repeat;
+    z-index: 1;
 }
 
 .electro{
