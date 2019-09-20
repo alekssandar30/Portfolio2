@@ -159,6 +159,19 @@ nav{
     text-transform: lowercase;
 }
 
+
+.icons a{
+    color: white;
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0 1rem;
+    transition: white 650ms;
+}
+.icons a:hover{
+    color: #eb648c;
+    transition: all 0.5s ease-out;
+}
+
 .btn{
     background-color: #eb648c;
     border-radius: 2rem;
@@ -240,11 +253,11 @@ nav{
 }
 
 .electro{
-    background: url("images/hiking.jpg") center no-repeat;
+    background: url("images/tesla.jpg") center no-repeat;
 }
 
-.biking{
-    background: url("images/camping.jpg") center no-repeat;
+.adrenalin{
+    background: url("images/camping.JPG") center no-repeat;
 }
 
 .activities-grid-item i{
@@ -349,6 +362,10 @@ footer{
         height: 9.4rem;
         background: url("/images/wave-medium.png");
         background-size: cover;
+    }
+
+    .icons a{
+        margin-top: 5rem;
     }
 
     .clients::before{
