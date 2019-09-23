@@ -7,12 +7,14 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Stefan Velbl</title>
+    <link rel="shortcut icon" href="/stefi_fVD_icon.ico" />
     <!--Ion Icons-->
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    
 
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -25,7 +27,7 @@
             <nav>
                 <div class="nav-brand">
                     <a href="index.html">
-                        <img src="images/logo.png" alt="logo">
+                        <img src="/images/munja-logo.svg" alt="logo">
                     </a>
                 </div>
                 <div class="menu-icons open">
@@ -57,11 +59,14 @@
     </header>
 
     <main>
+        <div id="particles-js"></div>   
         <section class="hero" id="home">
             <div class="container">
                 <div class="main-message">
                     <h3>Stefan Velbl</h3>
-                    <h5>Electrical engineering student and fitness enthusiast from Serbia.</h5>
+                    <h5>
+                        Electrical engineering student and fitness enthusiast from Serbia.
+                    </h5>
 
                     <!--Social media-->
                     <div class="icons">
@@ -131,7 +136,12 @@
                 <div class="client">
                     <!--2 boxes-->
                     <div class="client-text-box">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>This guy changed my life.
+                            After going to the gym 4 times a week but seeing no results with weight loss or muscle gain,
+                            Stefan was able to show me the importance of food intake, targeted workouts and consistency.
+                            Even when I slip up or have something crop up in life doesn’t mean I’m back to square one,
+                            Stefan makes sure I stay on track and gives me the boosts I need to carry on going.
+                        </p>
                         <i class="icon ion-md-quote"></i>
                     </div>
                     <div class="client-customer">
@@ -187,16 +197,20 @@
 
                 </div>
 
-                <a class="btn" href="#">Some button</a>
+                <a class="btn" href="#">Ask me anonymously</a>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; Made By Aleksandar Novaković 2019</p>
+        <p>&copy; Made By <a href="https://alekssandar30.github.io/My-Portfolio/dist/" target="_blank">Aleksandar
+                Novaković</a> 2019</p>
     </footer>
 
     <script type="text/javascript" src="scripts.js"></script>
+    <script type="text/javascript" src="particles.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    
 </body>
 
 </html>
