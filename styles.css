@@ -166,6 +166,34 @@ nav {
   font-size: 1.6rem;
 }
 
+.line{
+    position: relative;
+    top: 50%;
+    width: 20em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,0.75);
+    font-size: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.anim-typewriter{
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter{
+    from{width: 0;}
+    to{width: 18.5em;}
+}
+@keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255, 0.75);}
+    to{border-right-color: transparent;}
+}
+
+
 .main-message p {
   text-transform: lowercase;
 }
