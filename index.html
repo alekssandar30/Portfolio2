@@ -7,6 +7,15 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Portfolio of a electrical engineering student"
+    />
+    <meta
+      name="keywords"
+      content="Stefan Velbl, Portfolio, Electrical engineering, student, training, fitness, nutrition plan, gym"
+    />
+    <meta name="author" content="Stefan Velbl" />
     <title>Stefan Velbl</title>
     <link rel="shortcut icon" href="/stefi_fVD_icon.ico" />
     <!--Ion Icons-->
@@ -128,7 +137,7 @@
               <div class="back">
                 <div class="back-content">
                   <p>
-                    I'm very passionate when it comes to fittness and training.
+                    I'm very passionate when it comes to fitness and training.
                   </p>
 
                   <a
@@ -200,7 +209,7 @@
               <i class="icon ion-md-quote"></i>
             </div>
             <div class="client-customer">
-              <img src="images/profile.JPG" alt="client img" />
+              <img src="images/profile.JPG" alt="client's image" />
               <h1>David</h1>
             </div>
           </div>
@@ -209,12 +218,19 @@
           <div class="client fade">
             <!--2 boxes-->
             <div class="client-text-box">
-              <p>Sonetove recenice</p>
+              <p>
+                I have had amazing success with the Stefan's Daily Routine
+                Fitness program, and couldn’t recommend it more! Stefan has
+                helped me refine my approach to workouts, nutrition and overall
+                motivation. The result has been some weight loss and a
+                significant tightening of my whole body, to the point that I
+                think it’s the best it has ever been.
+              </p>
               <i class="icon ion-md-quote"></i>
             </div>
             <div class="client-customer">
-              <img src="images/nenad.JPG" />
-              <h1></h1>
+              <img src="images/nenad.JPG" alt="client's image" />
+              <h1>Nenad</h1>
             </div>
           </div>
 
@@ -337,7 +353,7 @@
       function showSlides(n) {
         var i;
         var slides = document.getElementsByClassName("client");
-    
+
         if (n > slides.length) {
           slideIndex = 1;
         }
@@ -347,9 +363,8 @@
         for (i = 0; i < slides.length; i++) {
           slides[i].style.display = "none";
         }
-        
+
         slides[slideIndex - 1].style.display = "block";
-      
       }
 
       //******************************************
